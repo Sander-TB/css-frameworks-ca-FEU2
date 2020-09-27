@@ -1,0 +1,9 @@
+.news-page__link {
+	border-color: $accent-color;
+	color: $accent-color;
+}
+
+.news-page__link-active {
+	background-color: $accent-color !important;
+	border-color: $accent-color !important;
+}

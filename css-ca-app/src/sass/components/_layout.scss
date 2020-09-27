@@ -1,0 +1,95 @@
+@import "./mixins";
+
+body {
+	background-color: $primary-bg;
+}
+
+.icons__share {
+	margin-left: 10px;
+}
+
+.icons__footer {
+	margin-right: 20px;
+}
+
+.icons__contact {
+	margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	.accordion {
+		display: block !important;
+	}
+
+	.homepage__card {
+		display: none !important;
+	}
+
+	.homepage__card-tabs {
+		display: flex;
+		flex-direction: column !important;
+		font-size: 15px;
+	}
+	.homepage__card-img {
+		height: 100px;
+	}
+
+	.homepage__card-tabs-text {
+		margin-top: 20px;
+	}
+	.contact {
+		flex-direction: column-reverse;
+	}
+
+	.news__card {
+		margin-top: 50px;
+	}
+
+	.contact {
+		margin: 0 !important;
+	}
+
+	.contact__info-wrapper {
+		margin: 0 !important;
+	}
+
+	.heading__submit {
+		font-size: 25px;
+	}
+
+	.submit__form {
+		width: 370px !important;
+	}
+
+	.contact__info-wrapper {
+		margin: 70px !important;
+	}
+
+	.button {
+		box-shadow: 10px 0px 0px 0px rgba(118, 118, 118, 1) !important;
+	}
+
+	.top-nav {
+		border: none !important;
+	}
+
+	.navbar-collapse {
+		background-color: $primary-bg;
+		z-index: 10;
+		box-shadow: 3px 17px 17px -8px rgba(161, 158, 161, 1);
+		padding: 20px 0 30px 20px;
+	}
+
+	.search {
+		width: 200px;
+	}
+
+	.footer {
+		height: 200px !important;
+	}
+
+	.footer__container {
+		display: flex;
+		flex-direction: column;
+	}
+}

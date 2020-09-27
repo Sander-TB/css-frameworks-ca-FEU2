@@ -1,0 +1,5 @@
+@import "./mixins";
+
+.paragraph {
+	@include text-style;
+}

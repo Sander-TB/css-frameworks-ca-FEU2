@@ -1,0 +1,62 @@
+@import "./mixins";
+
+$radius: 3px;
+
+.navbar {
+	background-color: $primary-bg;
+	height: 70px;
+}
+
+.top-nav {
+	border-bottom: 1px solid $tertiary-bg;
+}
+
+.navbar-brand {
+	font-style: italic;
+	color: $accent-color;
+	font-family: "Playfair Display", serif;
+}
+
+.nav-link {
+	color: $primary-text;
+
+	&:active {
+		background-color: $secondary-bg;
+	}
+
+	&:hover {
+		background-color: $accent-color;
+		border-radius: $radius;
+		color: inherit;
+	}
+}
+
+.navbar-toggler-icon {
+	@include text-style;
+}
+
+.form-control {
+	border-radius: 3px 0 0 3px;
+	border: none;
+}
+
+.btn-go {
+	background-color: $accent-color;
+	border-radius: 0 3px 3px 0;
+	color: $secondary-bg;
+}
+
+.burger {
+	display: none;
+}
+
+.burger {
+	.line1,
+	.line2,
+	.line3 {
+		width: 30px;
+		height: 3px;
+		background-color: $secondary-text;
+		margin: 5px;
+	}
+}

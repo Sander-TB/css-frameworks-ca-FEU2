@@ -1,0 +1,28 @@
+.button {
+	background-color: $accent-color;
+	border: none;
+	box-shadow: 27px 0px 0px 0px rgba(118, 118, 118, 1);
+	padding-left: 100px;
+	padding-right: 90px;
+
+	&:hover {
+		color: $accent-color;
+		background-color: $secondary-bg;
+		box-shadow: none;
+	}
+}
+
+.contact__btn {
+	background-color: $secondary-text;
+	border: none;
+}
+
+.website__btn {
+	border: none;
+	background-color: $tertiary-bg;
+	color: $secondary-bg;
+}
+
+.accordion-btn {
+	color: $accent-color;
+}

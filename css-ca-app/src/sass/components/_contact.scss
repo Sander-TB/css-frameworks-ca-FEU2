@@ -1,0 +1,48 @@
+@import "./mixins";
+
+.contact {
+	display: flex;
+	margin: 100px;
+}
+
+.submit__form {
+	background: rgb(255, 255, 255);
+	background: radial-gradient(
+		circle,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(229, 229, 229, 1) 100%
+	);
+	width: 550px;
+}
+
+.input__label {
+	@include text-style;
+}
+
+.input__label-text {
+	font-size: 12px;
+}
+
+.contact__info-wrapper {
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.contact__info-ul {
+	list-style: none;
+	@include text-style;
+}
+
+.contact__info-li {
+	padding-bottom: 20px;
+}
+
+.contact-list-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.icons-list {
+	list-style: none;
+	@include text-style;
+}
